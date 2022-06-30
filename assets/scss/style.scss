@@ -1,0 +1,65 @@
+/* Reset */
+* {
+  margin: 0;
+}
+body,
+html {
+  height: 100%;
+}
+button {
+  background: transparent;
+  border: 1px solid #000;
+  outline: 0;
+  cursor: pointer;
+}
+svg {
+  max-width: 100%;
+}
+/* Typography */
+.text-center {
+  text-align: center;
+}
+/* Layout */
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+.d-flex {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.d-table {
+  display: table;
+}
+.d-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* Style */
+section {
+  height: 100vh;
+  background-color: #20948B;
+  padding: 50px 0;
+}
+ 
